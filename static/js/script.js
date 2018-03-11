@@ -17,3 +17,27 @@ $(document).ready(function(){
         }
 })
 });
+
+/*function typeEffect(element, speed) {
+	var text = $(element).text();
+	$(element).html('');
+
+	var i = 0;
+	var timer = setInterval(function() {
+					if (i < text.length) {
+						$(element).append(text.charAt(i));
+						i++;
+					} else {
+						clearInterval(timer);
+					}
+				}, speed);
+}
+
+$( document ).ready(function() {
+  var speed = 75;
+  var delay = $('.header-image > p:nth-child(1)').text().length * speed + speed;
+  typeEffect($('.header-image > p:nth-child(1)'), speed);
+  setTimeout(function(){
+    typeEffect($('.header-image > p:nth-child(2)'), speed);
+  }, delay);
+});*/
